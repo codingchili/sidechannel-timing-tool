@@ -1,7 +1,7 @@
 # sidechannel-timing-tool
 Small tool for measuring system latency during string comparison.
 
-The tool supports three modes, in-vm, tcp and telnet.
+The tool supports three modes, in-vm and telnet (for use with GNS3 virtual routers).
 
 The tool works by using a password that is known in advance. Starts by attempting to authenticate using the first letter of the password. 
 Then increases the number of letters included in each authentication request over time. Each request produces some timing information
